@@ -4,6 +4,9 @@ bundle:
 include:
   - resources/*
 
+# exclude:
+#   -data/marvel_characters_dataset.csv
+
 artifacts:
   default:
     type: whl
